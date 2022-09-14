@@ -1,0 +1,64 @@
+2022-09-12T12:33:42+00:00 CRITICAL Cannot redeclare search() (previously declared in C:\Users\flavi\Local Sites\theme\app\public\wp-content\plugins\wpr-academy\wpr-academy.php:18) in C:\Users\flavi\Local Sites\theme\app\public\wp-content\plugins\quickview-module\quickview-module.php on line 18
+
+2022-09-12T12:33:43+00:00 CRITICAL Cannot redeclare search() (previously declared in C:\Users\flavi\Local Sites\theme\app\public\wp-content\plugins\wpr-academy\wpr-academy.php:18) in C:\Users\flavi\Local Sites\theme\app\public\wp-content\plugins\quickview-module\quickview-module.php on line 18
+
+2022-09-12T12:33:43+00:00 CRITICAL Cannot redeclare search() (previously declared in C:\Users\flavi\Local Sites\theme\app\public\wp-content\plugins\wpr-academy\wpr-academy.php:18) in C:\Users\flavi\Local Sites\theme\app\public\wp-content\plugins\quickview-module\quickview-module.php on line 18
+
+2022-09-12T12:59:25+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::get_the_title() in C:\Users\flavi\Local Sites\theme\app\public\wp-content\themes\astra-child\woocommerce\content-product.php:51
+Stack trace:
+#0 C:\Users\flavi\Local Sites\theme\app\public\wp-includes\template.php(772): require()
+#1 C:\Users\flavi\Local Sites\theme\app\public\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\Users\\flavi\\...', false)
+#2 C:\Users\flavi\Local Sites\theme\app\public\wp-content\plugins\woocommerce\templates\archive-product.php(70): wc_get_template_part('content', 'product')
+#3 C:\Users\flavi\Local Sites\theme\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\flavi\\...')
+#4 C:\Users\flavi\Local Sites\theme\app\public\wp-blog-header.php(19): require_once('C:\\Users\\flavi\\...')
+#5 C:\Users\flavi\Local Sites\theme\app\public\index.php(17): require('C:\\Users\\flavi\\...')
+#6 {main}
+  thrown in C:\Users\flavi\Local Sites\theme\app\public\wp-content\themes\astra-child\woocommerce\content-product.php on line 51
+
+2022-09-12T12:59:35+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::get_the_title() in C:\Users\flavi\Local Sites\theme\app\public\wp-content\themes\astra-child\woocommerce\content-product.php:51
+Stack trace:
+#0 C:\Users\flavi\Local Sites\theme\app\public\wp-includes\template.php(772): require()
+#1 C:\Users\flavi\Local Sites\theme\app\public\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\Users\\flavi\\...', false)
+#2 C:\Users\flavi\Local Sites\theme\app\public\wp-content\plugins\woocommerce\templates\single-product\related.php(43): wc_get_template_part('content', 'product')
+#3 C:\Users\flavi\Local Sites\theme\app\public\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\Users\\flavi\\...')
+#4 C:\Users\flavi\Local Sites\theme\app\public\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2047): wc_get_template('single-product/...', Array)
+#5 C:\Users\flavi\Local Sites\theme\app\public\wp-content\plugins\woocommerce\includes\wc-template in C:\Users\flavi\Local Sites\theme\app\public\wp-content\themes\astra-child\woocommerce\content-product.php on line 51
+
+2022-09-12T12:59:55+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::the_title() in C:\Users\flavi\Local Sites\theme\app\public\wp-content\themes\astra-child\woocommerce\content-product.php:51
+Stack trace:
+#0 C:\Users\flavi\Local Sites\theme\app\public\wp-includes\template.php(772): require()
+#1 C:\Users\flavi\Local Sites\theme\app\public\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\Users\\flavi\\...', false)
+#2 C:\Users\flavi\Local Sites\theme\app\public\wp-content\plugins\woocommerce\templates\archive-product.php(70): wc_get_template_part('content', 'product')
+#3 C:\Users\flavi\Local Sites\theme\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\flavi\\...')
+#4 C:\Users\flavi\Local Sites\theme\app\public\wp-blog-header.php(19): require_once('C:\\Users\\flavi\\...')
+#5 C:\Users\flavi\Local Sites\theme\app\public\index.php(17): require('C:\\Users\\flavi\\...')
+#6 {main}
+  thrown in C:\Users\flavi\Local Sites\theme\app\public\wp-content\themes\astra-child\woocommerce\content-product.php on line 51
+
+2022-09-12T12:59:58+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::the_title() in C:\Users\flavi\Local Sites\theme\app\public\wp-content\themes\astra-child\woocommerce\content-product.php:51
+Stack trace:
+#0 C:\Users\flavi\Local Sites\theme\app\public\wp-includes\template.php(772): require()
+#1 C:\Users\flavi\Local Sites\theme\app\public\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\Users\\flavi\\...', false)
+#2 C:\Users\flavi\Local Sites\theme\app\public\wp-content\plugins\woocommerce\templates\single-product\related.php(43): wc_get_template_part('content', 'product')
+#3 C:\Users\flavi\Local Sites\theme\app\public\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\Users\\flavi\\...')
+#4 C:\Users\flavi\Local Sites\theme\app\public\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2047): wc_get_template('single-product/...', Array)
+#5 C:\Users\flavi\Local Sites\theme\app\public\wp-content\plugins\woocommerce\includes\wc-template-fun in C:\Users\flavi\Local Sites\theme\app\public\wp-content\themes\astra-child\woocommerce\content-product.php on line 51
+
+2022-09-12T13:56:10+00:00 CRITICAL Uncaught Error: Call to undefined function getAttribute() in C:\Users\flavi\Local Sites\theme\app\public\wp-content\themes\astra-child\functions.php:434
+Stack trace:
+#0 C:\Users\flavi\Local Sites\theme\app\public\wp-includes\class-wp-hook.php(307): my_action_callback('')
+#1 C:\Users\flavi\Local Sites\theme\app\public\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\Users\flavi\Local Sites\theme\app\public\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\Users\flavi\Local Sites\theme\app\public\wp-admin\admin-ajax.php(187): do_action('wp_ajax_my_acti...')
+#4 {main}
+  thrown in C:\Users\flavi\Local Sites\theme\app\public\wp-content\themes\astra-child\functions.php on line 434
+
+2022-09-12T15:05:46+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in C:\Users\flavi\Local Sites\theme\app\public\wp-content\themes\astra-child\functions.php:434
+Stack trace:
+#0 C:\Users\flavi\Local Sites\theme\app\public\wp-includes\class-wp-hook.php(307): my_action_callback('')
+#1 C:\Users\flavi\Local Sites\theme\app\public\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\Users\flavi\Local Sites\theme\app\public\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\Users\flavi\Local Sites\theme\app\public\wp-admin\admin-ajax.php(187): do_action('wp_ajax_my_acti...')
+#4 {main}
+  thrown in C:\Users\flavi\Local Sites\theme\app\public\wp-content\themes\astra-child\functions.php on line 434
+

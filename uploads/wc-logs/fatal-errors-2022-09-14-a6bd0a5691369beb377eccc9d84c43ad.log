@@ -1,0 +1,152 @@
+2022-09-14T12:59:09+00:00 CRITICAL Cannot redeclare save_to_cart_t_shirt_text_cf() (previously declared in C:\Users\flavi\Local Sites\theme\app\public\wp-content\themes\astra-child\functions.php:509) in C:\Users\flavi\Local Sites\theme\app\public\wp-content\themes\astra-child\functions.php on line 573
+
+2022-09-14T13:07:37+00:00 CRITICAL syntax error, unexpected ')' in C:\Users\flavi\Local Sites\theme\app\public\wp-content\themes\astra-child\functions.php on line 565
+
+2022-09-14T13:07:38+00:00 CRITICAL syntax error, unexpected ')' in C:\Users\flavi\Local Sites\theme\app\public\wp-content\themes\astra-child\functions.php on line 565
+
+2022-09-14T13:09:37+00:00 CRITICAL syntax error, unexpected ')' in C:\Users\flavi\Local Sites\theme\app\public\wp-content\themes\astra-child\functions.php on line 565
+
+2022-09-14T13:09:38+00:00 CRITICAL syntax error, unexpected ')' in C:\Users\flavi\Local Sites\theme\app\public\wp-content\themes\astra-child\functions.php on line 565
+
+2022-09-14T13:10:38+00:00 CRITICAL syntax error, unexpected ')' in C:\Users\flavi\Local Sites\theme\app\public\wp-content\themes\astra-child\functions.php on line 565
+
+2022-09-14T13:10:38+00:00 CRITICAL syntax error, unexpected ')' in C:\Users\flavi\Local Sites\theme\app\public\wp-content\themes\astra-child\functions.php on line 565
+
+2022-09-14T13:11:38+00:00 CRITICAL syntax error, unexpected ')' in C:\Users\flavi\Local Sites\theme\app\public\wp-content\themes\astra-child\functions.php on line 565
+
+2022-09-14T13:47:57+00:00 CRITICAL Cannot redeclare save_to_cart_t_shirt_text_cf() (previously declared in C:\Users\flavi\Local Sites\theme\app\public\wp-content\themes\astra-child\functions.php:509) in C:\Users\flavi\Local Sites\theme\app\public\wp-content\themes\astra-child\functions.php on line 589
+
+2022-09-14T13:49:57+00:00 CRITICAL Cannot redeclare render_custom_field_meta_on_cart_and_checkout() (previously declared in C:\Users\flavi\Local Sites\theme\app\public\wp-content\themes\astra-child\functions.php:522) in C:\Users\flavi\Local Sites\theme\app\public\wp-content\themes\astra-child\functions.php on line 602
+
+2022-09-14T14:11:59+00:00 CRITICAL syntax error, unexpected ')', expecting ';' in C:\Users\flavi\Local Sites\theme\app\public\wp-content\themes\astra-child\functions.php on line 530
+
+2022-09-14T14:12:53+00:00 CRITICAL syntax error, unexpected end of file in C:\Users\flavi\Local Sites\theme\app\public\wp-content\themes\astra-child\functions.php on line 553
+
+2022-09-14T14:12:54+00:00 CRITICAL syntax error, unexpected end of file in C:\Users\flavi\Local Sites\theme\app\public\wp-content\themes\astra-child\functions.php on line 553
+
+2022-09-14T14:12:55+00:00 CRITICAL syntax error, unexpected end of file in C:\Users\flavi\Local Sites\theme\app\public\wp-content\themes\astra-child\functions.php on line 553
+
+2022-09-14T14:12:56+00:00 CRITICAL syntax error, unexpected end of file in C:\Users\flavi\Local Sites\theme\app\public\wp-content\themes\astra-child\functions.php on line 553
+
+2022-09-14T14:12:57+00:00 CRITICAL syntax error, unexpected end of file in C:\Users\flavi\Local Sites\theme\app\public\wp-content\themes\astra-child\functions.php on line 553
+
+2022-09-14T14:12:58+00:00 CRITICAL syntax error, unexpected end of file in C:\Users\flavi\Local Sites\theme\app\public\wp-content\themes\astra-child\functions.php on line 553
+
+2022-09-14T14:12:59+00:00 CRITICAL syntax error, unexpected end of file in C:\Users\flavi\Local Sites\theme\app\public\wp-content\themes\astra-child\functions.php on line 553
+
+2022-09-14T15:43:49+00:00 CRITICAL syntax error, unexpected '}' in C:\Users\flavi\Local Sites\theme\app\public\wp-content\themes\astra-child\functions.php on line 552
+
+2022-09-14T15:43:49+00:00 CRITICAL syntax error, unexpected '}' in C:\Users\flavi\Local Sites\theme\app\public\wp-content\themes\astra-child\functions.php on line 552
+
+2022-09-14T15:45:59+00:00 CRITICAL Uncaught Error: Call to a member function get_price() on null in C:\Users\flavi\Local Sites\theme\app\public\wp-content\themes\astra-child\functions.php:541
+Stack trace:
+#0 C:\Users\flavi\Local Sites\theme\app\public\wp-includes\class-wp-hook.php(309): save_to_cart_t_shirt_text_cs(Array, 91)
+#1 C:\Users\flavi\Local Sites\theme\app\public\wp-includes\plugin.php(191): WP_Hook->apply_filters(Array, Array)
+#2 C:\Users\flavi\Local Sites\theme\app\public\wp-content\plugins\woocommerce\includes\class-wc-cart.php(1138): apply_filters('woocommerce_add...', Array, 91, 0, 1)
+#3 C:\Users\flavi\Local Sites\theme\app\public\wp-content\plugins\woocommerce\includes\class-wc-form-handler.php(824): WC_Cart->add_to_cart(91, 1)
+#4 C:\Users\flavi\Local Sites\theme\app\public\wp-content\plugins\woocommerce\includes\class-wc-form-handler.php(796): WC_Form_Handler::add_to_cart_handler_simple(91)
+#5 C:\Users\flavi\Local Sites\theme\app\public\wp-includes\class-wp-hook.php(307): WC_Form_Handler::add_to_cart_action('')
+#6 C:\Users\flav in C:\Users\flavi\Local Sites\theme\app\public\wp-content\themes\astra-child\functions.php on line 541
+
+2022-09-14T16:04:24+00:00 CRITICAL Cannot redeclare search_callback() (previously declared in C:\Users\flavi\Local Sites\theme\app\public\wp-content\plugins\wpr-academy\wpr-academy.php:62) in C:\Users\flavi\Local Sites\theme\app\public\wp-content\plugins\t-shirt-print\t-shirt-print.php on line 155
+
+2022-09-14T16:04:25+00:00 CRITICAL Cannot redeclare search_callback() (previously declared in C:\Users\flavi\Local Sites\theme\app\public\wp-content\plugins\wpr-academy\wpr-academy.php:62) in C:\Users\flavi\Local Sites\theme\app\public\wp-content\plugins\t-shirt-print\t-shirt-print.php on line 155
+
+2022-09-14T16:04:25+00:00 CRITICAL Cannot redeclare search_callback() (previously declared in C:\Users\flavi\Local Sites\theme\app\public\wp-content\plugins\wpr-academy\wpr-academy.php:62) in C:\Users\flavi\Local Sites\theme\app\public\wp-content\plugins\t-shirt-print\t-shirt-print.php on line 155
+
+2022-09-14T16:23:59+00:00 CRITICAL Cannot redeclare my_action_callback() (previously declared in C:\Users\flavi\Local Sites\theme\app\public\wp-content\plugins\t-shirt-print\t-shirt-print.php:42) in C:\Users\flavi\Local Sites\theme\app\public\wp-content\themes\astra-child\functions.php on line 440
+
+2022-09-14T16:26:00+00:00 CRITICAL Cannot redeclare my_action_callback() (previously declared in C:\Users\flavi\Local Sites\theme\app\public\wp-content\plugins\t-shirt-print\t-shirt-print.php:42) in C:\Users\flavi\Local Sites\theme\app\public\wp-content\themes\astra-child\functions.php on line 440
+
+2022-09-14T16:27:31+00:00 CRITICAL Cannot redeclare my_action_callback() (previously declared in C:\Users\flavi\Local Sites\theme\app\public\wp-content\plugins\t-shirt-print\t-shirt-print.php:42) in C:\Users\flavi\Local Sites\theme\app\public\wp-content\themes\astra-child\functions.php on line 440
+
+2022-09-14T16:27:55+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in C:\Users\flavi\Local Sites\theme\app\public\wp-content\plugins\t-shirt-print\t-shirt-print.php:35
+Stack trace:
+#0 C:\Users\flavi\Local Sites\theme\app\public\wp-includes\class-wp-hook.php(307): t_shirt_scripts('')
+#1 C:\Users\flavi\Local Sites\theme\app\public\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\Users\flavi\Local Sites\theme\app\public\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\Users\flavi\Local Sites\theme\app\public\wp-content\plugins\woocommerce\templates\single-product\add-to-cart\simple.php(33): do_action('woocommerce_bef...')
+#4 C:\Users\flavi\Local Sites\theme\app\public\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\Users\\flavi\\...')
+#5 C:\Users\flavi\Local Sites\theme\app\public\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1696): wc_get_template('single-product/...')
+#6 C:\Users\flavi\Local Sites\theme\app\public\wp-includes\c in C:\Users\flavi\Local Sites\theme\app\public\wp-content\plugins\t-shirt-print\t-shirt-print.php on line 35
+
+2022-09-14T16:28:56+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in C:\Users\flavi\Local Sites\theme\app\public\wp-content\plugins\t-shirt-print\t-shirt-print.php:35
+Stack trace:
+#0 C:\Users\flavi\Local Sites\theme\app\public\wp-includes\class-wp-hook.php(307): t_shirt_scripts('')
+#1 C:\Users\flavi\Local Sites\theme\app\public\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\Users\flavi\Local Sites\theme\app\public\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\Users\flavi\Local Sites\theme\app\public\wp-content\plugins\woocommerce\templates\single-product\add-to-cart\simple.php(33): do_action('woocommerce_bef...')
+#4 C:\Users\flavi\Local Sites\theme\app\public\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\Users\\flavi\\...')
+#5 C:\Users\flavi\Local Sites\theme\app\public\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1696): wc_get_template('single-product/...')
+#6 C:\Users\flavi\Local Sites\theme\app\public\wp-includes\c in C:\Users\flavi\Local Sites\theme\app\public\wp-content\plugins\t-shirt-print\t-shirt-print.php on line 35
+
+2022-09-14T16:30:03+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in C:\Users\flavi\Local Sites\theme\app\public\wp-content\plugins\t-shirt-print\t-shirt-print.php:35
+Stack trace:
+#0 C:\Users\flavi\Local Sites\theme\app\public\wp-includes\class-wp-hook.php(307): t_shirt_scripts('')
+#1 C:\Users\flavi\Local Sites\theme\app\public\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\Users\flavi\Local Sites\theme\app\public\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\Users\flavi\Local Sites\theme\app\public\wp-content\plugins\woocommerce\templates\single-product\add-to-cart\simple.php(33): do_action('woocommerce_bef...')
+#4 C:\Users\flavi\Local Sites\theme\app\public\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\Users\\flavi\\...')
+#5 C:\Users\flavi\Local Sites\theme\app\public\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1696): wc_get_template('single-product/...')
+#6 C:\Users\flavi\Local Sites\theme\app\public\wp-includes\c in C:\Users\flavi\Local Sites\theme\app\public\wp-content\plugins\t-shirt-print\t-shirt-print.php on line 35
+
+2022-09-14T17:10:00+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::get_the_id() in C:\Users\flavi\Local Sites\theme\app\public\wp-content\themes\astra-child\woocommerce\single-product\price.php:26
+Stack trace:
+#0 C:\Users\flavi\Local Sites\theme\app\public\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\Users\flavi\Local Sites\theme\app\public\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1640): wc_get_template('single-product/...')
+#2 C:\Users\flavi\Local Sites\theme\app\public\wp-content\themes\astra\inc\compatibility\woocommerce\class-astra-woocommerce.php(3419): woocommerce_template_single_price()
+#3 C:\Users\flavi\Local Sites\theme\app\public\wp-includes\class-wp-hook.php(307): Astra_Woocommerce->single_product_content_structure('')
+#4 C:\Users\flavi\Local Sites\theme\app\public\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#5 C:\Users\flavi\Local Sites\theme\app\public\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#6 C:\ in C:\Users\flavi\Local Sites\theme\app\public\wp-content\themes\astra-child\woocommerce\single-product\price.php on line 26
+
+2022-09-14T17:10:14+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::get_the_ID() in C:\Users\flavi\Local Sites\theme\app\public\wp-content\themes\astra-child\woocommerce\single-product\price.php:26
+Stack trace:
+#0 C:\Users\flavi\Local Sites\theme\app\public\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\Users\flavi\Local Sites\theme\app\public\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1640): wc_get_template('single-product/...')
+#2 C:\Users\flavi\Local Sites\theme\app\public\wp-content\themes\astra\inc\compatibility\woocommerce\class-astra-woocommerce.php(3419): woocommerce_template_single_price()
+#3 C:\Users\flavi\Local Sites\theme\app\public\wp-includes\class-wp-hook.php(307): Astra_Woocommerce->single_product_content_structure('')
+#4 C:\Users\flavi\Local Sites\theme\app\public\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#5 C:\Users\flavi\Local Sites\theme\app\public\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#6 C:\ in C:\Users\flavi\Local Sites\theme\app\public\wp-content\themes\astra-child\woocommerce\single-product\price.php on line 26
+
+2022-09-14T17:54:46+00:00 CRITICAL Cannot redeclare token_field_callback() (previously declared in C:\Users\flavi\Local Sites\theme\app\public\wp-content\plugins\t-shirt-print\t-shirt-print.php:32) in C:\Users\flavi\Local Sites\theme\app\public\wp-content\themes\astra-child\functions.php on line 190
+
+2022-09-14T17:54:48+00:00 CRITICAL Cannot redeclare token_field_callback() (previously declared in C:\Users\flavi\Local Sites\theme\app\public\wp-content\plugins\t-shirt-print\t-shirt-print.php:32) in C:\Users\flavi\Local Sites\theme\app\public\wp-content\themes\astra-child\functions.php on line 190
+
+2022-09-14T18:19:47+00:00 CRITICAL Uncaught Error: Call to a member function get_price() on bool in C:\Users\flavi\Local Sites\theme\app\public\wp-content\plugins\t-shirt-print\t-shirt-print.php:194
+Stack trace:
+#0 C:\Users\flavi\Local Sites\theme\app\public\wp-includes\class-wp-hook.php(307): my_actionz_callback('')
+#1 C:\Users\flavi\Local Sites\theme\app\public\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\Users\flavi\Local Sites\theme\app\public\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\Users\flavi\Local Sites\theme\app\public\wp-admin\admin-ajax.php(187): do_action('wp_ajax_my_acti...')
+#4 {main}
+  thrown in C:\Users\flavi\Local Sites\theme\app\public\wp-content\plugins\t-shirt-print\t-shirt-print.php on line 194
+
+2022-09-14T18:20:01+00:00 CRITICAL Uncaught Error: Call to a member function get_price() on bool in C:\Users\flavi\Local Sites\theme\app\public\wp-content\plugins\t-shirt-print\t-shirt-print.php:194
+Stack trace:
+#0 C:\Users\flavi\Local Sites\theme\app\public\wp-includes\class-wp-hook.php(307): my_actionz_callback('')
+#1 C:\Users\flavi\Local Sites\theme\app\public\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\Users\flavi\Local Sites\theme\app\public\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\Users\flavi\Local Sites\theme\app\public\wp-admin\admin-ajax.php(187): do_action('wp_ajax_my_acti...')
+#4 {main}
+  thrown in C:\Users\flavi\Local Sites\theme\app\public\wp-content\plugins\t-shirt-print\t-shirt-print.php on line 194
+
+2022-09-14T18:21:30+00:00 CRITICAL Uncaught Error: Call to a member function get_price() on bool in C:\Users\flavi\Local Sites\theme\app\public\wp-content\plugins\t-shirt-print\t-shirt-print.php:194
+Stack trace:
+#0 C:\Users\flavi\Local Sites\theme\app\public\wp-includes\class-wp-hook.php(307): my_actionz_callback('')
+#1 C:\Users\flavi\Local Sites\theme\app\public\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\Users\flavi\Local Sites\theme\app\public\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\Users\flavi\Local Sites\theme\app\public\wp-admin\admin-ajax.php(187): do_action('wp_ajax_my_acti...')
+#4 {main}
+  thrown in C:\Users\flavi\Local Sites\theme\app\public\wp-content\plugins\t-shirt-print\t-shirt-print.php on line 194
+
+2022-09-14T18:21:52+00:00 CRITICAL Uncaught Error: Call to a member function get_price() on bool in C:\Users\flavi\Local Sites\theme\app\public\wp-content\plugins\t-shirt-print\t-shirt-print.php:194
+Stack trace:
+#0 C:\Users\flavi\Local Sites\theme\app\public\wp-includes\class-wp-hook.php(307): my_actionz_callback('')
+#1 C:\Users\flavi\Local Sites\theme\app\public\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\Users\flavi\Local Sites\theme\app\public\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\Users\flavi\Local Sites\theme\app\public\wp-admin\admin-ajax.php(187): do_action('wp_ajax_my_acti...')
+#4 {main}
+  thrown in C:\Users\flavi\Local Sites\theme\app\public\wp-content\plugins\t-shirt-print\t-shirt-print.php on line 194
+

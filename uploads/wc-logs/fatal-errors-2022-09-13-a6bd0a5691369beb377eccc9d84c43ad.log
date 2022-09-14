@@ -1,0 +1,126 @@
+2022-09-13T07:48:56+00:00 CRITICAL Uncaught Error: Call to undefined function get_image() in C:\Users\flavi\Local Sites\theme\app\public\wp-content\themes\astra-child\functions.php:449
+Stack trace:
+#0 C:\Users\flavi\Local Sites\theme\app\public\wp-includes\class-wp-hook.php(307): my_action_callback('')
+#1 C:\Users\flavi\Local Sites\theme\app\public\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\Users\flavi\Local Sites\theme\app\public\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\Users\flavi\Local Sites\theme\app\public\wp-admin\admin-ajax.php(187): do_action('wp_ajax_my_acti...')
+#4 {main}
+  thrown in C:\Users\flavi\Local Sites\theme\app\public\wp-content\themes\astra-child\functions.php on line 449
+
+2022-09-13T07:49:21+00:00 CRITICAL Uncaught Error: Call to undefined function get_image() in C:\Users\flavi\Local Sites\theme\app\public\wp-content\themes\astra-child\functions.php:449
+Stack trace:
+#0 C:\Users\flavi\Local Sites\theme\app\public\wp-includes\class-wp-hook.php(307): my_action_callback('')
+#1 C:\Users\flavi\Local Sites\theme\app\public\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\Users\flavi\Local Sites\theme\app\public\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\Users\flavi\Local Sites\theme\app\public\wp-admin\admin-ajax.php(187): do_action('wp_ajax_my_acti...')
+#4 {main}
+  thrown in C:\Users\flavi\Local Sites\theme\app\public\wp-content\themes\astra-child\functions.php on line 449
+
+2022-09-13T07:51:10+00:00 CRITICAL Uncaught Error: Call to undefined function get_image() in C:\Users\flavi\Local Sites\theme\app\public\wp-content\themes\astra-child\functions.php:449
+Stack trace:
+#0 C:\Users\flavi\Local Sites\theme\app\public\wp-includes\class-wp-hook.php(307): my_action_callback('')
+#1 C:\Users\flavi\Local Sites\theme\app\public\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\Users\flavi\Local Sites\theme\app\public\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\Users\flavi\Local Sites\theme\app\public\wp-admin\admin-ajax.php(187): do_action('wp_ajax_my_acti...')
+#4 {main}
+  thrown in C:\Users\flavi\Local Sites\theme\app\public\wp-content\themes\astra-child\functions.php on line 449
+
+2022-09-13T07:51:50+00:00 CRITICAL Uncaught Error: Call to undefined function get_image() in C:\Users\flavi\Local Sites\theme\app\public\wp-content\themes\astra-child\functions.php:449
+Stack trace:
+#0 C:\Users\flavi\Local Sites\theme\app\public\wp-includes\class-wp-hook.php(307): my_action_callback('')
+#1 C:\Users\flavi\Local Sites\theme\app\public\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\Users\flavi\Local Sites\theme\app\public\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\Users\flavi\Local Sites\theme\app\public\wp-admin\admin-ajax.php(187): do_action('wp_ajax_my_acti...')
+#4 {main}
+  thrown in C:\Users\flavi\Local Sites\theme\app\public\wp-content\themes\astra-child\functions.php on line 449
+
+2022-09-13T07:57:12+00:00 CRITICAL Uncaught Error: Call to undefined function get_image() in C:\Users\flavi\Local Sites\theme\app\public\wp-content\themes\astra-child\functions.php:439
+Stack trace:
+#0 C:\Users\flavi\Local Sites\theme\app\public\wp-includes\class-wp-hook.php(307): my_action_callback('')
+#1 C:\Users\flavi\Local Sites\theme\app\public\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\Users\flavi\Local Sites\theme\app\public\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\Users\flavi\Local Sites\theme\app\public\wp-admin\admin-ajax.php(187): do_action('wp_ajax_my_acti...')
+#4 {main}
+  thrown in C:\Users\flavi\Local Sites\theme\app\public\wp-content\themes\astra-child\functions.php on line 439
+
+2022-09-13T08:00:41+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::get_the_title() in C:\Users\flavi\Local Sites\theme\app\public\wp-content\themes\astra-child\functions.php:437
+Stack trace:
+#0 C:\Users\flavi\Local Sites\theme\app\public\wp-includes\class-wp-hook.php(307): my_action_callback('')
+#1 C:\Users\flavi\Local Sites\theme\app\public\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\Users\flavi\Local Sites\theme\app\public\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\Users\flavi\Local Sites\theme\app\public\wp-admin\admin-ajax.php(187): do_action('wp_ajax_my_acti...')
+#4 {main}
+  thrown in C:\Users\flavi\Local Sites\theme\app\public\wp-content\themes\astra-child\functions.php on line 437
+
+2022-09-13T08:01:03+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::get_the_title() in C:\Users\flavi\Local Sites\theme\app\public\wp-content\themes\astra-child\functions.php:438
+Stack trace:
+#0 C:\Users\flavi\Local Sites\theme\app\public\wp-includes\class-wp-hook.php(307): my_action_callback('')
+#1 C:\Users\flavi\Local Sites\theme\app\public\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\Users\flavi\Local Sites\theme\app\public\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\Users\flavi\Local Sites\theme\app\public\wp-admin\admin-ajax.php(187): do_action('wp_ajax_my_acti...')
+#4 {main}
+  thrown in C:\Users\flavi\Local Sites\theme\app\public\wp-content\themes\astra-child\functions.php on line 438
+
+2022-09-13T11:35:57+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::get_available_variations() in C:\Users\flavi\Local Sites\theme\app\public\wp-content\themes\astra-child\woocommerce\content-product.php:44
+Stack trace:
+#0 C:\Users\flavi\Local Sites\theme\app\public\wp-includes\template.php(772): require()
+#1 C:\Users\flavi\Local Sites\theme\app\public\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\Users\\flavi\\...', false)
+#2 C:\Users\flavi\Local Sites\theme\app\public\wp-content\plugins\woocommerce\templates\archive-product.php(70): wc_get_template_part('content', 'product')
+#3 C:\Users\flavi\Local Sites\theme\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\flavi\\...')
+#4 C:\Users\flavi\Local Sites\theme\app\public\wp-blog-header.php(19): require_once('C:\\Users\\flavi\\...')
+#5 C:\Users\flavi\Local Sites\theme\app\public\index.php(17): require('C:\\Users\\flavi\\...')
+#6 {main}
+  thrown in C:\Users\flavi\Local Sites\theme\app\public\wp-content\themes\astra-child\woocommerce\content-product.php on line 44
+
+2022-09-13T11:38:43+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::get_available_variations() in C:\Users\flavi\Local Sites\theme\app\public\wp-content\themes\astra-child\functions.php:438
+Stack trace:
+#0 C:\Users\flavi\Local Sites\theme\app\public\wp-includes\class-wp-hook.php(307): my_action_callback('')
+#1 C:\Users\flavi\Local Sites\theme\app\public\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\Users\flavi\Local Sites\theme\app\public\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\Users\flavi\Local Sites\theme\app\public\wp-admin\admin-ajax.php(187): do_action('wp_ajax_my_acti...')
+#4 {main}
+  thrown in C:\Users\flavi\Local Sites\theme\app\public\wp-content\themes\astra-child\functions.php on line 438
+
+2022-09-13T12:35:53+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on bool in C:\Users\flavi\Local Sites\theme\app\public\wp-content\themes\astra-child\functions.php:439
+Stack trace:
+#0 C:\Users\flavi\Local Sites\theme\app\public\wp-includes\class-wp-hook.php(307): my_action_callback('')
+#1 C:\Users\flavi\Local Sites\theme\app\public\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\Users\flavi\Local Sites\theme\app\public\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\Users\flavi\Local Sites\theme\app\public\wp-admin\admin-ajax.php(187): do_action('wp_ajax_my_acti...')
+#4 {main}
+  thrown in C:\Users\flavi\Local Sites\theme\app\public\wp-content\themes\astra-child\functions.php on line 439
+
+2022-09-13T12:36:34+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on bool in C:\Users\flavi\Local Sites\theme\app\public\wp-content\themes\astra-child\functions.php:439
+Stack trace:
+#0 C:\Users\flavi\Local Sites\theme\app\public\wp-includes\class-wp-hook.php(307): my_action_callback('')
+#1 C:\Users\flavi\Local Sites\theme\app\public\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\Users\flavi\Local Sites\theme\app\public\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\Users\flavi\Local Sites\theme\app\public\wp-admin\admin-ajax.php(187): do_action('wp_ajax_my_acti...')
+#4 {main}
+  thrown in C:\Users\flavi\Local Sites\theme\app\public\wp-content\themes\astra-child\functions.php on line 439
+
+2022-09-13T12:36:58+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on bool in C:\Users\flavi\Local Sites\theme\app\public\wp-content\themes\astra-child\functions.php:439
+Stack trace:
+#0 C:\Users\flavi\Local Sites\theme\app\public\wp-includes\class-wp-hook.php(307): my_action_callback('')
+#1 C:\Users\flavi\Local Sites\theme\app\public\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\Users\flavi\Local Sites\theme\app\public\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\Users\flavi\Local Sites\theme\app\public\wp-admin\admin-ajax.php(187): do_action('wp_ajax_my_acti...')
+#4 {main}
+  thrown in C:\Users\flavi\Local Sites\theme\app\public\wp-content\themes\astra-child\functions.php on line 439
+
+2022-09-13T13:33:03+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid product type: passed ID does not correspond to a product variation. in C:\Users\flavi\Local Sites\theme\app\public\wp-content\plugins\woocommerce\includes\data-stores\class-wc-product-variation-data-store-cpt.php:58
+Stack trace:
+#0 C:\Users\flavi\Local Sites\theme\app\public\wp-content\plugins\woocommerce\includes\class-wc-data-store.php(159): WC_Product_Variation_Data_Store_CPT->read(Object(WC_Product_Variation))
+#1 C:\Users\flavi\Local Sites\theme\app\public\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php(138): WC_Data_Store->read(Object(WC_Product_Variation))
+#2 C:\Users\flavi\Local Sites\theme\app\public\wp-content\plugins\woocommerce\includes\class-wc-product-simple.php(24): WC_Product->__construct('89')
+#3 C:\Users\flavi\Local Sites\theme\app\public\wp-content\plugins\woocommerce\includes\class-wc-product-variation.php(54): WC_Product_Simple->__construct('89')
+#4 C:\Users\flavi\Local Sites\theme\app\public\wp-content\themes\astra-child\functi in C:\Users\flavi\Local Sites\theme\app\public\wp-content\plugins\woocommerce\includes\data-stores\class-wc-product-variation-data-store-cpt.php on line 58
+
+2022-09-13T13:33:47+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid product type: passed ID does not correspond to a product variation. in C:\Users\flavi\Local Sites\theme\app\public\wp-content\plugins\woocommerce\includes\data-stores\class-wc-product-variation-data-store-cpt.php:58
+Stack trace:
+#0 C:\Users\flavi\Local Sites\theme\app\public\wp-content\plugins\woocommerce\includes\class-wc-data-store.php(159): WC_Product_Variation_Data_Store_CPT->read(Object(WC_Product_Variation))
+#1 C:\Users\flavi\Local Sites\theme\app\public\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php(138): WC_Data_Store->read(Object(WC_Product_Variation))
+#2 C:\Users\flavi\Local Sites\theme\app\public\wp-content\plugins\woocommerce\includes\class-wc-product-simple.php(24): WC_Product->__construct('89')
+#3 C:\Users\flavi\Local Sites\theme\app\public\wp-content\plugins\woocommerce\includes\class-wc-product-variation.php(54): WC_Product_Simple->__construct('89')
+#4 C:\Users\flavi\Local Sites\theme\app\public\wp-content\themes\astra-child\functi in C:\Users\flavi\Local Sites\theme\app\public\wp-content\plugins\woocommerce\includes\data-stores\class-wc-product-variation-data-store-cpt.php on line 58
+

@@ -1,0 +1,28 @@
+2022-09-08T15:11:36+00:00 CRITICAL Uncaught Error: Cannot use object of type WC_Product_Simple as array in C:\Users\flavi\Local Sites\theme\app\public\wp-content\themes\astra-child\functions.php:381
+Stack trace:
+#0 C:\Users\flavi\Local Sites\theme\app\public\wp-includes\class-wp-hook.php(307): add_text_after_addtocart('')
+#1 C:\Users\flavi\Local Sites\theme\app\public\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\Users\flavi\Local Sites\theme\app\public\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\Users\flavi\Local Sites\theme\app\public\wp-content\plugins\woocommerce\templates\single-product\add-to-cart\simple.php(54): do_action('woocommerce_aft...')
+#4 C:\Users\flavi\Local Sites\theme\app\public\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\Users\\flavi\\...')
+#5 C:\Users\flavi\Local Sites\theme\app\public\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1696): wc_get_template('single-product/...')
+#6 C:\Users\flavi\Local Sites\theme\app\public\ in C:\Users\flavi\Local Sites\theme\app\public\wp-content\themes\astra-child\functions.php on line 381
+
+2022-09-08T15:33:49+00:00 CRITICAL Uncaught Error: Call to undefined function get_type() in C:\Users\flavi\Local Sites\theme\app\public\wp-content\themes\astra-child\woocommerce\single-product\title.php:26
+Stack trace:
+#0 C:\Users\flavi\Local Sites\theme\app\public\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\Users\flavi\Local Sites\theme\app\public\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1620): wc_get_template('single-product/...')
+#2 C:\Users\flavi\Local Sites\theme\app\public\wp-content\themes\astra\inc\compatibility\woocommerce\class-astra-woocommerce.php(3292): woocommerce_template_single_title()
+#3 C:\Users\flavi\Local Sites\theme\app\public\wp-content\themes\astra\inc\compatibility\woocommerce\class-astra-woocommerce.php(3411): Astra_Woocommerce->astra_woo_woocommerce_template_product_title('')
+#4 C:\Users\flavi\Local Sites\theme\app\public\wp-includes\class-wp-hook.php(307): Astra_Woocommerce->single_product_content_structure('')
+#5 C:\Users\flavi\Local Sites\theme\app\pu in C:\Users\flavi\Local Sites\theme\app\public\wp-content\themes\astra-child\woocommerce\single-product\title.php on line 26
+
+2022-09-08T15:34:08+00:00 CRITICAL Uncaught Error: Call to undefined function get_type() in C:\Users\flavi\Local Sites\theme\app\public\wp-content\themes\astra-child\woocommerce\single-product\title.php:25
+Stack trace:
+#0 C:\Users\flavi\Local Sites\theme\app\public\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\Users\flavi\Local Sites\theme\app\public\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1620): wc_get_template('single-product/...')
+#2 C:\Users\flavi\Local Sites\theme\app\public\wp-content\themes\astra\inc\compatibility\woocommerce\class-astra-woocommerce.php(3292): woocommerce_template_single_title()
+#3 C:\Users\flavi\Local Sites\theme\app\public\wp-content\themes\astra\inc\compatibility\woocommerce\class-astra-woocommerce.php(3411): Astra_Woocommerce->astra_woo_woocommerce_template_product_title('')
+#4 C:\Users\flavi\Local Sites\theme\app\public\wp-includes\class-wp-hook.php(307): Astra_Woocommerce->single_product_content_structure('')
+#5 C:\Users\flavi\Local Sites\theme\app\pu in C:\Users\flavi\Local Sites\theme\app\public\wp-content\themes\astra-child\woocommerce\single-product\title.php on line 25
+
